@@ -1,4 +1,5 @@
 function getFirstSelector(selector) {
+<<<<<<< HEAD
   return document.querySelector(selector);
 }
 
@@ -23,4 +24,8 @@ function deepestChild() {
     text = boo.children[0]
   }
   return boo 
+=======
+  let match = document.querySelector(selector)
+  return match[0]
+>>>>>>> f90d5db6bed02ee9b6e63c17d303699b23e4e303
 }
